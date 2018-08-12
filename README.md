@@ -11,9 +11,9 @@ shifting is applied on training data.
 3. Model Architecture: See project report for details
 
 ### Model Enhancement:
-• Using cross entropy instead of classification accuracy since it reflects how good the weights
+1. Using cross entropy instead of classification accuracy since it reflects how good the weights
 are chosen, not just how many correct predictions are made.
-• Increasing the epoch numbers from 30-100
-• Adding more convolutional layers to implement a simplified version of VGG-16.
-• Skipping the normalisation after each pooling
-• Dropout before final layer to avoid over-fitting
+2. Increasing the epoch numbers from 30-100
+3. Adding more convolutional layers to implement a simplified version of VGG-16.
+4. Skipping the normalisation after each pooling
+5. Dropout before final layer to avoid over-fitting
