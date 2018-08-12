@@ -1,6 +1,6 @@
-# Image Recognition of Handwritten Integers
+# Image Recognition of Handwritten Integers (0-9)
 ### Data Pre-process
-1. Classes are well-balanced in training set (see Fig.1).
+1. Classes are well-balanced in training set.
 2. Most digits located in the middle. Different levels of blur, rotation, shifting and scaling issues
 exist. To deal with them and improve model's tolerance of noises, random rotation, zooming and
 shifting is applied on training data.
